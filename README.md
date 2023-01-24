@@ -59,6 +59,9 @@ this in an electronic labnotebook, so that you can easily share it with
 collaborators. This is particularly useful if you are working remotely and/or
 have video confcall meeting regurlarly.
 
+This labnotebook will be built automatically, and the resulting HTML will be
+pushed on the `gh-pages`.
+
 - This repository's labnotebook is done using
   [sphinx](http://www.sphinx-doc.org/en/stable/), but anything that builds in
   HTML in `results/_build/html` using `make all` will work with the current
