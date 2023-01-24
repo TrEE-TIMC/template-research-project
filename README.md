@@ -10,9 +10,24 @@ computation biology project`
    not commit it (and ideally, create a small script to automatically download
    the data). If the data is very very large, and you cannot even download it
    on your computer, try to have a small subsample that you can commit here,
-   and symlink (on the cluster) the large data in it. Code such that your
-   scripts work transparently locally on the small subsample data, and
-   remotely on the full dataset (by using snakemake for instance).
+   and symlink (on the cluster) the large data in this folder. *e.g.*, if you
+   work on the whole set of complete genomes of the NCBI, create a small
+   subsample:
+
+   `data/NCBI-partial-dataset`
+
+   And add, *on the server*, a symlink to the whole dataset such that the
+   structure of the folder is:
+
+   ```
+   data/
+	NCBI-partial-dataset
+	NCBI-full-dataset
+   ```
+
+   Code such that your scripts work transparently locally on the small
+   subsample data, and remotely on the full dataset (by using snakemake for
+   instance).
 
 2. `scripts` contains a series of folders, each corresponding to a step in the
    data analysis process. In those folders, add all scripts necessary to this
