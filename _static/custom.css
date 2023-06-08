@@ -1,1 +1,8 @@
-/* This file intentionally left blank. */
+
+div.document {
+    width: 1200px;
+}
+
+div.body {
+    max-width: 1200px;
+}
