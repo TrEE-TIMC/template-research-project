@@ -1,24 +1,16 @@
-.. My Research Project documentation master file, created by
-   sphinx-quickstart on Tue Jan 24 11:13:43 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Labnotebook
-===========
-
-.. toctree::
-   :maxdepth: 1
-
-   index
-   data
-   bibliography
-   
-
-.. contents::
+# Labnotebook
 
 
-My second entry
----------------
+```{toctree}
+---
+maxdepth: 3
+---
+
+index
+```
+
+
+## My second entry
 
 *written February, 2nd, 2023*
 
@@ -32,8 +24,7 @@ conubia nostra, per inceptos himenaeos. Praesent eget magna lorem. Phasellus
 lacus tellus, sollicitudin nec imperdiet sit amet, lobortis ac nulla.
 Suspendisse id placerat nunc, ut lacinia est.
 
-My first entry
---------------
+## My first entry
 
 *written February, 1st, 2023*
 
