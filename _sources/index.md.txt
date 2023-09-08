@@ -9,7 +9,9 @@ maxdepth: 3
 index
 ```
 
-.. content::
+```{contents} Table of Contents
+:depth: 3
+```
 
 ## My second entry
 
