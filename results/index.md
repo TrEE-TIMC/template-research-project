@@ -24,6 +24,8 @@ conubia nostra, per inceptos himenaeos. Praesent eget magna lorem. Phasellus
 lacus tellus, sollicitudin nec imperdiet sit amet, lobortis ac nulla.
 Suspendisse id placerat nunc, ut lacinia est.
 
+$$y = \beta X$$
+
 ## My first entry
 
 *written February, 1st, 2023*
