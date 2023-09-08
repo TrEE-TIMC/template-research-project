@@ -6,7 +6,8 @@
 maxdepth: 3
 ---
 
-index
+data
+bibliography
 ```
 
 ```{contents} Table of Contents
