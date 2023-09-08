@@ -9,6 +9,7 @@ maxdepth: 3
 index
 ```
 
+.. content::
 
 ## My second entry
 
