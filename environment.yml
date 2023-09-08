@@ -7,3 +7,5 @@ dependencies:
     - pip:
         - numpy
         - sphinx
+        - myst-parser
+        - linkify-it-py
