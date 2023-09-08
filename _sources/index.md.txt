@@ -14,6 +14,19 @@ bibliography
 :depth: 3
 ```
 
+## Running TODO list
+
+All of the things I have to do
+
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.
+- [ ] Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+  ut aliquip ex ea commodo consequat. 
+- [X] Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+  dolore eu fugiat nulla pariatur. 
+- [X] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum."
+
 ## My second entry
 
 *written February, 2nd, 2023*
@@ -28,7 +41,40 @@ conubia nostra, per inceptos himenaeos. Praesent eget magna lorem. Phasellus
 lacus tellus, sollicitudin nec imperdiet sit amet, lobortis ac nulla.
 Suspendisse id placerat nunc, ut lacinia est.
 
-$$y = \beta X$$
+```{image} images/mpl_anatomy.png
+:alt: Matplotlib's Anatomy of a figure
+:class: bg-primary
+:width: 400px
+:align: center
+```
+
+Mauris enim sem, auctor at arcu et, facilisis mattis diam. Quisque rhoncus
+justo non faucibus laoreet. In iaculis a odio scelerisque volutpat. Quisque
+diam turpis, sagittis sit amet tortor eu, dapibus consequat neque.
+Pellentesque id turpis ut ante rutrum volutpat sit amet sit amet diam. Quisque
+maximus, elit eu ullamcorper vehicula, orci eros egestas tortor, id
+pellentesque justo tortor et magna. Etiam vitae placerat felis. Aliquam
+imperdiet odio sit amet cursus dapibus. Integer ultricies a odio non laoreet.
+Suspendisse pretium blandit quam et posuere. Vestibulum vel urna sem.
+
+$$\hat{\beta} = \underset{\beta}{\text{argmin}} \quad \| y - \beta X\|_2 + \lambda \| \beta \|_1$$
+
+Nulla facilisi. In hac habitasse platea dictumst. Phasellus faucibus quam eu
+iaculis vestibulum. Nam eget consectetur velit. Proin ultricies tincidunt
+sapien, sit amet posuere ante pretium in. Donec elementum ultricies quam eget
+elementum. Pellentesque elementum felis vitae arcu venenatis dapibus. Nunc
+eget erat eu orci sagittis placerat quis vitae leo. Curabitur quis euismod
+orci. Aenean diam tellus, ornare nec sodales ut, vehicula vel neque. Integer
+quis aliquam nisi. Nulla in interdum arcu. Donec finibus ullamcorper magna.
+Sed rhoncus, nibh non finibus semper, libero mi sagittis purus, ac gravida
+enim lorem at magna. Nullam vestibulum metus libero, ac finibus augue vehicula
+a. Phasellus non nulla sapien.
+
+
+| left | center | right |
+| :--- | :----: | ----: |
+| a    | b      | c     |
+| e    | f      | g     |
 
 ## My first entry
 
