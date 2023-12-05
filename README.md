@@ -5,8 +5,8 @@ template or is the `template-research project`.
 
 ## Project organization
 
-The project structure follows the recommendation of `quick guide to organize
-your computation biology project`
+The project structure follows the recommendation of [quick guide to organize
+your computation biology project](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
 
 1. `data` contains the raw data of your project. If the data is too large, do
    not commit it (and ideally, create a small script to automatically download
